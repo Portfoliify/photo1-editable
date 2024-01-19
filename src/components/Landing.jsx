@@ -1016,7 +1016,7 @@ const [showOverlay , setShowOverlay] = useState(false)
     formData.append("instagramLink", instagramLink);
     formData.append("twitterLink", twitterLink);
 
-    fetch("https://portfoliifybackend-tp8u.onrender.com", {
+    fetch("https://portfoliifybackend-tp8u.onrender.com/upload", {
       method: "POST",
       body: formData,
     })
